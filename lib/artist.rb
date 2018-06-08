@@ -31,5 +31,6 @@ class Artist
     @@all << self
   end
   
-  def print_song
+  def print_songs
+    songs.each {
 end
