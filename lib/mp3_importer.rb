@@ -7,7 +7,10 @@ class MP3Importer
   end
 
   def files
-    
+    Dir.entries(path).each do |filename|
+      @filenames << "#{filename}"
+    end
+    @filenames.delete_if {|x| x == "." || x == ".."}
   end
   
   def import
