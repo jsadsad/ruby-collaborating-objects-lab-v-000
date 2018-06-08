@@ -1,1 +1,1 @@
-class mp3_im
+class MP3IMPORTER 
