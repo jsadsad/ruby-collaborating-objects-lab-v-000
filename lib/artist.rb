@@ -27,5 +27,6 @@ class Artist
     self.new(name).tap{|artist| artist.create}
   end
   
-  
+  def save
+    
 end
