@@ -20,5 +20,5 @@ class Artist
   end
   
   def self.find(name)
-    se.f
+    self.all.
 end
