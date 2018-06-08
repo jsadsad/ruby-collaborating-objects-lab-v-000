@@ -6,4 +6,5 @@ class Song
   end 
   
   def self.new_by_filename(file)
-    artist, song = fle.split("-")
+    artist, song = fle.split(" - ")
+    new_song = 
