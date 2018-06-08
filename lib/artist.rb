@@ -5,5 +5,6 @@ class Artist
     @name = name
   end
   
-  def artist_name=()
+  def artist_name=(name)
+    self.name = 
 end
