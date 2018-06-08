@@ -7,4 +7,5 @@ class Song
   
   def self.new_by_filename(file)
     artist, song = fle.split(" - ")
-    new_song = 
+    new_song = self.new(song)
+    new_song
